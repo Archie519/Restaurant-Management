@@ -1,41 +1,41 @@
-# Restaurant_management_system
+# 🍽️ Restaurant Management System
 
-## Project Video Link : https://youtu.be/cpPmBlvtdrs
+A full-featured web-based restaurant management system built using **Django**, designed to simplify and digitize restaurant operations such as table bookings, menu management, order processing, and billing.
 
-## Requirement
-    
-[get-pip.zip](https://github.com/7Har/Restaurant_management_system/files/6250009/get-pip.zip)
+---
 
+## 🌟 Features
 
-    python get-pip.py
+- 🧾 Add, update, and delete **menu items**
+- 🍽️ Handle **table reservations** and statuses
+- 🛒 Take, update, and delete **customer orders**
+- 💵 **Bill generation** for completed orders
+- 👥 **Login system** for admin/staff
+- 📊 **Dashboard** to monitor restaurant activity
 
-    py -m pip install django
+---
 
-    pip install pycryptodome
+## 🛠️ Tech Stack
 
-    pip install django-admin-rangefilter
-    
-    python -m pip install Pillow    
+| Layer        | Technology        |
+|--------------|-------------------|
+| **Backend**  | Django (Python)   |
+| **Frontend** | HTML, CSS, Bootstrap |
+| **Database** | SQLite (default Django DB) |
+| **Others**   | Django Admin Panel |
 
+---
 
-## To run the server, run the following command:
+🔐 User Roles
+Admin: Full access to all features including adding menu items, managing staff, and accessing the admin panel.
+Staff: Can view menu, take orders, and generate bills.
 
-    python manage.py makemigrations
-        
-    python manage.py migrate
+-----
 
-    python manage.py runserver
-
-
-## For  customer login:
-
-    username:"user" password:"user"
-    
-## For  Employee login:
-
-    username:"admin" password:"123456789"
-    
-## For  Admin login:
-
-    username:"dkp" password:"Dkp@4321"
+💡 Future Enhancements
+📱 Mobile responsive UI
+📦 Inventory tracking system
+✉️ Email receipts
+📈 Daily sales report generation
+⭐ Customer feedback integration
 
