@@ -26,16 +26,18 @@ A full-featured web-based restaurant management system built using **Django**, d
 
 ---
 
-🔐 User Roles
-Admin: Full access to all features including adding menu items, managing staff, and accessing the admin panel.
-Staff: Can view menu, take orders, and generate bills.
+## 🔐 **User Roles**
 
------
+- **👑 Admin**: Full access to all features including adding menu items, managing staff, and accessing the admin panel.  
+- **👨‍🍳 Staff**: Can view menu, take orders, and generate bills.
 
-💡 Future Enhancements
-📱 Mobile responsive UI
-📦 Inventory tracking system
-✉️ Email receipts
-📈 Daily sales report generation
-⭐ Customer feedback integration
+---
+
+## 💡 **Future Enhancements**
+
+- 📱 **Mobile responsive UI**
+- 📦 **Inventory tracking system**
+- ✉️ **Email receipts**
+- 📈 **Daily sales report generation**
+- ⭐ **Customer feedback integration**
 
